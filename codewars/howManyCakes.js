@@ -22,7 +22,7 @@ function cakes(recipe, available) {
 //returns 2
 console.log(
   cakes(
-    { flour: 500, sugar: 200, eggs: 1 },
+    { flour: 500, sugar: 200, eggs: 1, milk: 100 },
     { flour: 1200, sugar: 1200, eggs: 5, milk: 200 }
   )
 );
